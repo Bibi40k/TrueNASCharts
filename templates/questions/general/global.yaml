@@ -1,0 +1,13 @@
+  - variable: global
+    label: Global Settings
+    group: Controller
+    schema:
+      type: dict
+      hidden: true
+      attrs:
+        - variable: isSCALE
+          label: Flag this is SCALE
+          schema:
+            type: boolean
+            default: true
+            hidden: true
