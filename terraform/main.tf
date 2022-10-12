@@ -6,3 +6,9 @@ terraform {
     }
   }
 }
+
+module "apps1" {
+  source = "./apps1"
+
+  # Input Variables
+}
